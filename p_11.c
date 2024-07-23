@@ -2,7 +2,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include<time.h> 
-#define MAX 2147483647
+#define MAX 1000
   
 // Merges two subarrays of arr[]. 
 // First subarray is arr[l..m] 
@@ -93,7 +93,7 @@ void printArray(int A[], int size)
 // Driver code 
 int main() 
 { 
-    int arr[1000000] ,n,i;
+    int arr[MAX] ,n,i;
 double duration;
 printf("enter the n value:");
 scanf("%d",&n);
